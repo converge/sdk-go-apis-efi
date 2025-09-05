@@ -2,17 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/efipay/sdk-go-apis-efi/src/efipay/pix"
-	"github.com/efipay/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/src/efipay/pix"
 )
 
-func main(){
-	
+func main() {
+
 	credentials := configs.Credentials
 	efi := pix.NewEfiPay(credentials)
 
-
-	res, err := efi.GetAccountBalance(nil) 
+	res, err := efi.GetAccountBalance(nil)
 
 	if err != nil {
 		fmt.Println(err)

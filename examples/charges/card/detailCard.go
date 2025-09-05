@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/efipay/sdk-go-apis-efi/src/efipay"
-	"github.com/efipay/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/src/efipay"
 )
 
-func main(){
-	
+func main() {
+
 	credentials := configs.Credentials
 	efi := efipay.NewEfiPay(credentials)
 

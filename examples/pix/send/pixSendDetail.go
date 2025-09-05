@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
-	"github.com/efipay/sdk-go-apis-efi/src/efipay/pix"
-	"github.com/efipay/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/src/efipay/pix"
 )
 
-func main(){
-	
+func main() {
+
 	credentials := configs.Credentials
 	efi := pix.NewEfiPay(credentials)
-	
+
 	const e2eid = "E00416968202105211756Rh0iPsaJ1RK"
 
-	res, err := efi.PixSendDetail(e2eid) 
+	res, err := efi.PixSendDetail(e2eid)
 
 	if err != nil {
 		fmt.Println(err)

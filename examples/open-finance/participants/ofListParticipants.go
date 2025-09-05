@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/efipay/sdk-go-apis-efi/src/efipay/open_finance"
-	"github.com/efipay/sdk-go-apis-efi/examples/configs"
+	"github.com/converge/sdk-go-apis-efi/src/efipay/open_finance"
+	"github.com/converge/sdk-go-apis-efi/examples/configs"
 )
 
 func main(){

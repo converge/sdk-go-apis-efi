@@ -4,7 +4,7 @@
 
 <p align="center">
   <span><b>Português</b></span> |
-  <a href="https://github.com/efipay/sdk-go-apis-efi/blob/master/README-en.md">Inglês</a>
+  <a href="https://github.com/converge/sdk-go-apis-efi/blob/master/README-en.md">Inglês</a>
 </p>
 
 ---
@@ -32,7 +32,7 @@ go 1.8, 1.11.4, 1.16.5 and 1.19.2
 ## **Instalação**
 Clone este repositório e execute o seguinte comando para instalar as dependências
 ```
-go mod init github.com/efipay/sdk-go-apis-efi
+go mod init github.com/converge/sdk-go-apis-efi
 ```
 
 ## **Começando**
